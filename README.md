@@ -1,12 +1,5 @@
 # Simple exam in Java 
 
-<style>
-    p {
-        font-family: Arial, Helvetica, sans-serif;
-    }
-</style>
-
-
 <img src="assets/Java-logo.jpg" width="1000" height="300">
 <hr/>
 
