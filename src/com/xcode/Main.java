@@ -8,6 +8,7 @@ public class Main {
         String fullName = input.nextLine();
         System.out.print("Enter your ID: ");
         int yourId = input.nextInt();
+        
         System.out.println("Welcome " + fullName + "\n\"The exam consists of one part and ten questions\".");
 
         String questionOne = "Question 1: Java is short for \"JavaScript?\n" +
@@ -40,7 +41,7 @@ public class Main {
         String questionTen = "Question 10: In Java, it is possible to inherit attributes and methods from one class to another?\n" +
                 "(a.) True\n(b.) False";
 
-        Question[] question = {
+        Question[] question = { 
             new Question(questionOne, "b"),
             new Question(questionTwo, "d"),
             new Question(questionThree, "c"),
@@ -65,6 +66,7 @@ public class Main {
                 marks++;
             }
         }
+        inputAnswer.close();
         System.out.println("You got " + marks + "/" + questions.length);
     }
 }
